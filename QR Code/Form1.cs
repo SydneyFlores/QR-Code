@@ -53,8 +53,18 @@ namespace QR_Code
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            BarcodeReader QRread = new BarcodeReader();
+            if (camerabox.Image!=null)
+            {
+                BarcodeReader QRread = new BarcodeReader();
+                Result output = QRread.Decode((Bitmap)camerabox.Image);
 
+                if (output != null)
+                {
+                    StreamWriter=File.AppendText("Data.txt");
+                    timer1.Stop();
+                }
+            }
+            
         }
     }
 }
