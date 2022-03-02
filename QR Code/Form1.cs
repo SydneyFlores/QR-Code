@@ -53,6 +53,7 @@ namespace QR_Code
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            BarcodeReader QRread = new BarcodeReader();
 
         }
     }
