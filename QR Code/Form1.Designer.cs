@@ -29,34 +29,58 @@ namespace QR_Code
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.components = new System.ComponentModel.Container();
+            this.camerabox = new System.Windows.Forms.PictureBox();
+            this.buttonstart = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.camerabox)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // camerabox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(253, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(298, 210);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.camerabox.Location = new System.Drawing.Point(93, 28);
+            this.camerabox.Name = "camerabox";
+            this.camerabox.Size = new System.Drawing.Size(624, 406);
+            this.camerabox.TabIndex = 0;
+            this.camerabox.TabStop = false;
+            this.camerabox.Click += new System.EventHandler(this.camerabox_Click);
+            // 
+            // buttonstart
+            // 
+            this.buttonstart.Location = new System.Drawing.Point(360, 492);
+            this.buttonstart.Name = "buttonstart";
+            this.buttonstart.Size = new System.Drawing.Size(75, 23);
+            this.buttonstart.TabIndex = 1;
+            this.buttonstart.Text = "Start";
+            this.buttonstart.UseVisualStyleBackColor = true;
+            this.buttonstart.Click += new System.EventHandler(this.buttonstart_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(800, 595);
+            this.Controls.Add(this.buttonstart);
+            this.Controls.Add(this.camerabox);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.camerabox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox camerabox;
+        private System.Windows.Forms.Button buttonstart;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

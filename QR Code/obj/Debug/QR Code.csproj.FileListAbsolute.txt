@@ -1,0 +1,20 @@
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\QR Code.exe.config
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\QR Code.exe
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\QR Code.pdb
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\AForge.dll
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\AForge.Video.dll
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\zxing.dll
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\zxing.presentation.dll
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\AForge.xml
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\AForge.Video.xml
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\zxing.xml
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\bin\Debug\zxing.presentation.xml
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR Code.csproj.AssemblyReference.cache
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR_Code.Form1.resources
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR_Code.Properties.Resources.resources
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR Code.csproj.GenerateResource.cache
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR Code.csproj.CoreCompileInputs.cache
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR Code.exe
+C:\Users\Mhar Sydney\OOP\QRCode\QR Code\obj\Debug\QR Code.pdb
