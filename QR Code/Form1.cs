@@ -60,8 +60,13 @@ namespace QR_Code
 
                 if (output != null)
                 {
-                    StreamWriter=File.AppendText("Data.txt");
+                    StreamWriter datatextfile = File.AppendText("Data.txt");
+                    datatextfile.WriteLine(" Date " +DateTime.Now.ToString());
+                    datatextfile.WriteLine(output.ToString());
+                    datatextfile.Close();
                     timer1.Stop();
+
+                    MessageBox.Show("Successfully");
                 }
             }
             
